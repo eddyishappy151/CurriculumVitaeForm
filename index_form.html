@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Curriculum Vitae Form </title>
+
+  <link rel="stylesheet" href="styles/Externalstylesheet.css">
+
+</head>
+<body>
+
+<h1> Curriculum Vitae Form </h1> <div>
+  <nav>
+    <ul class="links-list">
+      <li> <a href="#Personal">Personal Information</a>
+      <li> <a href="Education">Educational Background</a>
+      <li> <a href="Skills">Skills</a>
+      <li> <a href="Achievement">Personal Achievement</a>
+      <li> <a href="Experience">Previous Experience</a>
+
+    </ul>
+  </nav>
+
+<form>
+<div>
+  <span> <a name="Personal">Personal Information</a> </span> <br>
+
+      <label> Name:</label>
+      <input type="text" required> <br>
+      <label> Email: </label>
+      <input type="email" required> <br>
+      <label> Phone Number:</label>
+      <input type="number" maxlength="10" value="60" required> <br>
+      <label> Birthday:</label>
+      <input type="date" required>
+      <label> Country:</label>
+      <input type="text" required> <br>
+      <label> Personal Photo (ID size) </label>
+      <input type="file" name="picture" accept="image/*"> <br><br>
+
+</div>
+
+<div>
+  <span> <a name="Education">Educational Background</a> </span> <br>
+
+      <label>Program:</label>
+      <input type="text" required> <br>
+      <label>Start:</label>
+      <input type="date" required> <br>
+      <label>End:</label>
+      <input type="date" required> <br>
+      <input type="radio"> Present <br>
+      <label>Country:</label>
+      <input type="text" required> <br> <br>
+</div>
+<div>
+  <span> <a name="Skills">Skills</span> <br>
+      <label>Share any skills that you have.</label> <br>
+      <textarea cols="50" rows="5"></textarea> <br><br>
+</div>
+
+<div>
+  <span> <a name="Achievement">Personal Achievement</span> <br>
+      <label>Share any personal achievement that you have attained.</label> <br>
+      <textarea cols="50" rows="5"></textarea> <br><br>
+</div>
+
+<div>
+  <span> <a name="Experience">Previous Experience</span> <br>
+    <label>Share any prior experiences that you have.</label> <br>
+    <textarea cols="50" rows="5"> </textarea> <br><br>
+</div>
+
+<div>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</div>
+
+</form>
+</body>
+
+</html>
